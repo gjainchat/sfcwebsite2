@@ -9,19 +9,19 @@ const SuccessStories = () => {
       name: "Lakshmi",
       role: "Artisan",
       story: "Through Shop for Change, I've increased my income by 40% and can now send my children to school.",
-      image: "/assets/images/success-1.jpg"
+      image: "/assets/images/pexels-equalstock-20515625.jpg"
     },
     {
       name: "Rajesh",
       role: "Farmer",
       story: "The sustainable farming practices I learned have doubled my crop yield while protecting the environment.",
-      image: "/assets/images/success-2.jpg"
+      image: "/assets/images/pexels-equalstock-20344342.jpg"
     },
     {
       name: "Priya",
       role: "Community Leader",
       story: "Our village has transformed since partnering with Shop for Change. We now have a library and digital center.",
-      image: "/assets/images/success-3.jpg"
+      image: "/assets/images/pexels-equalstock-20344363.jpg"
     }
   ];
 
@@ -52,7 +52,7 @@ const SuccessStories = () => {
                     <img
                       src={stories[currentSlide].image}
                       alt={stories[currentSlide].name}
-                      className="object-cover"
+                      className="object-cover w-full h-full"
                     />
                   </div>
                 </div>

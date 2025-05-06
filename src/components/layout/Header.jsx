@@ -18,8 +18,12 @@ const Header = () => {
     <header className="bg-white shadow-md">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-green-800">
-            Shop for Change
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/assets/images/logo.jpg" 
+              alt="Shop for Change" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           <div className="hidden md:flex space-x-6">

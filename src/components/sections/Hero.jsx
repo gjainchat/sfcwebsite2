@@ -8,7 +8,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/assets/images/hero-bg.jpg')",
+          backgroundImage: "url('/assets/images/pexels-equalstock-20344348.jpg')",
           filter: "brightness(0.7)"
         }}
       ></div>

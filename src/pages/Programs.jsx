@@ -4,10 +4,25 @@ import React from 'react';
 const Programs = () => {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-8">Our Programs</h1>
+      <div className="relative h-64 mb-12 rounded-lg overflow-hidden">
+        <img 
+          src="/assets/images/pexels-equalstock-20344363.jpg"
+          alt="Programs Banner"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <h1 className="text-4xl font-bold text-white absolute bottom-8 left-8">
+          Our Programs
+        </h1>
+      </div>
 
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img 
+            src="/assets/images/pexels-equalstock-20515625.jpg"
+            alt="Market Linkage"
+            className="w-full h-48 object-cover"
+          />
           <div className="p-6">
             <h2 className="text-2xl font-semibold mb-4">Market Linkage</h2>
             <p className="text-gray-700 mb-4">
@@ -24,6 +39,11 @@ const Programs = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img 
+            src="/assets/images/pexels-equalstock-20356777.jpg"
+            alt="Climate Action"
+            className="w-full h-48 object-cover"
+          />
           <div className="p-6">
             <h2 className="text-2xl font-semibold mb-4">Climate Action</h2>
             <p className="text-gray-700 mb-4">
@@ -40,6 +60,11 @@ const Programs = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img 
+            src="/assets/images/pexels-equalstock-20344348.jpg"
+            alt="AI Literacy"
+            className="w-full h-48 object-cover"
+          />
           <div className="p-6">
             <h2 className="text-2xl font-semibold mb-4">AI Literacy</h2>
             <p className="text-gray-700 mb-4">
@@ -56,6 +81,11 @@ const Programs = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img 
+            src="/assets/images/pexels-alex-jaison-1690209427-29039798.jpg"
+            alt="Women's Entrepreneurship"
+            className="w-full h-48 object-cover"
+          />
           <div className="p-6">
             <h2 className="text-2xl font-semibold mb-4">Women's Entrepreneurship</h2>
             <p className="text-gray-700 mb-4">
